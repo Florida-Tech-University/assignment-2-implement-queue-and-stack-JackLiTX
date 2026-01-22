@@ -13,7 +13,7 @@ public class ArrayQueue<E> implements QueueADT<E> {
 
     @Override
     public int size() {
-        return -1;
+        return this.size;
     }
 
     @Override
